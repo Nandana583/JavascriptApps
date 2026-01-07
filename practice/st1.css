@@ -1,0 +1,12 @@
+h2 {
+  color: blue;
+}
+form {
+  display: block;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  border-color: black;
+  width: 400px;
+}

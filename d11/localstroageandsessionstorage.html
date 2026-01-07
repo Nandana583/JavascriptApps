@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo">
+      <script>
+        // localStorage.setItem("userid", 123);
+        // localStorage.clear();
+        sessionStorage.setItem("userid", 123);
+        sessionStorage.clear();
+        // const uid = localStorage.getItem("userid");
+        // document.getElementById("demo").innerHTML = `uid is ${uid}`;
+        const uid = sessionStorage.getItem("userid");
+        document.getElementById("demo").innerHTML = `uid is ${uid}`;
+      </script>
+    </p>
+  </body>
+</html>
